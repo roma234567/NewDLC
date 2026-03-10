@@ -1,0 +1,24 @@
+pack.name=Visual Enhancer 1.21.50
+pack.description=Server-safe visual enhancement resource pack
+
+visual_settings.title=Visual Settings
+visual_settings.open=Visual Settings
+visual_settings.category.esp=Entity ESP
+visual_settings.category.hitbox=Hitbox Highlight
+visual_settings.category.block_esp=Block ESP
+visual_settings.category.target=Target ESP
+visual_settings.category.extra=Extra Visuals
+
+visual_settings.esp.toggle=Enable Entity Highlight Textures
+visual_settings.hitbox.toggle=Enable Hitbox Overlay
+visual_settings.hitbox.color=Hitbox Color Preset
+visual_settings.hitbox.opacity=Hitbox Opacity
+visual_settings.block_esp.toggle=Enable Chest ESP Textures
+visual_settings.target.toggle=Enable Target Outline Overlay
+visual_settings.extra.fullbright=Enable Fullbright Preset
+visual_settings.extra.clear_water=Enable Clear Water
+visual_settings.extra.fire=Enable Transparent Fire
+visual_settings.extra.crosshair=Crosshair Style
+visual_settings.note=Note: UI toggles are client-side visual presets in resource-pack scope.
+
+visual_settings.pause_hint=Open Pause Menu and press Visual Settings (replaces/overlays Marketplace slot).

@@ -1,0 +1,26 @@
+{
+  "namespace": "visual_settings",
+  "main_panel": {
+    "type": "panel",
+    "size": ["80%", "80%"],
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "controls": [
+      { "title": { "type": "label", "text": "visual_settings.title", "font_scale_factor": 1.2 } },
+      { "esp_toggle": { "type": "toggle", "text": "visual_settings.esp.toggle", "$toggle_name": "esp_enabled" } },
+      { "hitbox_toggle": { "type": "toggle", "text": "visual_settings.hitbox.toggle", "$toggle_name": "hitbox_enabled" } },
+      { "hitbox_color": { "type": "dropdown", "text": "visual_settings.hitbox.color", "options": ["Red", "Green", "Blue", "Purple"] } },
+      { "hitbox_opacity": { "type": "slider", "text": "visual_settings.hitbox.opacity", "min": 0.1, "max": 1.0, "value": 0.4 } },
+      { "block_esp_toggle": { "type": "toggle", "text": "visual_settings.block_esp.toggle", "$toggle_name": "block_esp_enabled" } },
+      { "target_toggle": { "type": "toggle", "text": "visual_settings.target.toggle", "$toggle_name": "target_esp_enabled" } },
+      { "fullbright_toggle": { "type": "toggle", "text": "visual_settings.extra.fullbright", "$toggle_name": "fullbright_enabled" } },
+      { "water_toggle": { "type": "toggle", "text": "visual_settings.extra.clear_water", "$toggle_name": "clear_water_enabled" } },
+      { "fire_toggle": { "type": "toggle", "text": "visual_settings.extra.fire", "$toggle_name": "clear_fire_enabled" } },
+      { "crosshair_style": { "type": "dropdown", "text": "visual_settings.extra.crosshair", "options": ["Default+", "Dot", "Thin Cross"] } },
+      { "note": { "type": "label", "text": "visual_settings.note", "color": [0.8, 0.8, 0.8] } }
+    ]
+  },
+  "settings_screen@common.base_screen": {
+    "$screen_content": "visual_settings.main_panel"
+  }
+}

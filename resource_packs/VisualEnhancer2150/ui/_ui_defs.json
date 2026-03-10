@@ -1,0 +1,7 @@
+{
+  "namespace": "visual_enhancer",
+  "files": [
+    "ui/pause_screen.json",
+    "ui/settings_screen.json"
+  ]
+}

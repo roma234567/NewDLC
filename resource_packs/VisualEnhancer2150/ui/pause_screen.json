@@ -1,0 +1,45 @@
+{
+  "namespace": "pause_screen",
+
+  "visual_settings_screen_factory": {
+    "type": "panel",
+    "size": ["100%", "100%"],
+    "controls": [
+      {
+        "visual_settings_modal@visual_settings.settings_screen": {
+          "layer": 100,
+          "visible": false
+        }
+      }
+    ]
+  },
+
+  "market_to_visual_settings_button": {
+    "type": "button",
+    "text": "visual_settings.open",
+    "size": [220, 20],
+    "$pressed_button_name": "visual_settings_button",
+    "bindings": [
+      {
+        "binding_type": "global",
+        "binding_name": "#marketplace_visible",
+        "binding_name_override": "#visible"
+      }
+    ]
+  },
+
+  "menu_screen@common.base_screen": {
+    "controls": [
+      {
+        "visual_settings_screen_factory@pause_screen.visual_settings_screen_factory": {}
+      },
+      {
+        "market_to_visual_settings_button@pause_screen.market_to_visual_settings_button": {
+          "anchor_from": "top_middle",
+          "anchor_to": "top_middle",
+          "offset": [0, 128]
+        }
+      }
+    ]
+  }
+}

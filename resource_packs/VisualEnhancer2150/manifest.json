@@ -1,0 +1,23 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Visual Enhancer 1.21.50",
+    "description": "Server-safe visual enhancement pack with custom settings UI.",
+    "uuid": "6dc5f8d0-c4db-41c5-b93d-8ba1698f8c2f",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 21, 50]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "94ae8567-b8f0-4ad0-bf09-38d4f57d5982",
+      "version": [1, 0, 0]
+    }
+  ],
+  "metadata": {
+    "authors": ["Codex"],
+    "generated_with": {
+      "codex": ["1.0.0"]
+    }
+  }
+}
