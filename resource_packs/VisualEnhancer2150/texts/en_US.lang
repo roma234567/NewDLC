@@ -20,5 +20,3 @@ visual_settings.extra.clear_water=Enable Clear Water
 visual_settings.extra.fire=Enable Transparent Fire
 visual_settings.extra.crosshair=Crosshair Style
 visual_settings.note=Note: UI toggles are client-side visual presets in resource-pack scope.
-
-visual_settings.pause_hint=Open Pause Menu and press Visual Settings (replaces/overlays Marketplace slot).

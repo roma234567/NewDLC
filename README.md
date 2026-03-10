@@ -23,7 +23,6 @@ python scripts/generate_visual_pack_assets.py
   - яркие ore-текстуры (без wallhack),
   - варианты прицела.
 - Кастомный экран Visual Settings в UI и кнопка в pause menu.
-- Кнопка Visual Settings привязана к слоту Marketplace в паузе, чтобы её было легко найти.
 
 ## Важное ограничение Bedrock RP
 
