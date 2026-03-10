@@ -1,0 +1,12 @@
+{
+  "resource_pack_name": "visual_enhancer_2150",
+  "texture_name": "atlas.entity",
+  "texture_data": {
+    "zombie": { "textures": "textures/entity/zombie_esp" },
+    "skeleton": { "textures": "textures/entity/skeleton_esp" },
+    "creeper": { "textures": "textures/entity/creeper_esp" },
+    "player": { "textures": "textures/entity/player_esp" },
+    "target_outline": { "textures": "textures/entity/target_outline" },
+    "hitbox_overlay": { "textures": "textures/entity/hitbox_overlay" }
+  }
+}

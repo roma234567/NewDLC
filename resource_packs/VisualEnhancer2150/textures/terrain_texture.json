@@ -1,0 +1,15 @@
+{
+  "resource_pack_name": "visual_enhancer_2150",
+  "texture_name": "atlas.terrain",
+  "padding": 8,
+  "num_mip_levels": 4,
+  "texture_data": {
+    "chest_normal": { "textures": "textures/blocks/chest_normal_highlight" },
+    "chest_trapped": { "textures": "textures/blocks/chest_trapped_highlight" },
+    "ender_chest": { "textures": "textures/blocks/ender_chest_highlight" },
+    "barrel_side": { "textures": "textures/blocks/barrel_highlight" },
+    "shulker_box": { "textures": "textures/blocks/shulker_highlight" },
+    "fire_0": { "textures": "textures/environment/fire_0_transparent" },
+    "fire_1": { "textures": "textures/environment/fire_1_transparent" }
+  }
+}
