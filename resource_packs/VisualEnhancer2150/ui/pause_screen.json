@@ -1,0 +1,28 @@
+{
+  "namespace": "pause_screen",
+  "menu_visual_settings_button": {
+    "type": "button",
+    "size": [220, 20],
+    "text": "visual_settings.open",
+    "anchor_from": "top_middle",
+    "anchor_to": "top_middle",
+    "offset": [0, 128],
+    "$pressed_button_name": "visual_settings_button",
+    "bindings": [
+      {
+        "binding_type": "view",
+        "source_control_name": "menu_visual_settings_button",
+        "target_property_name": "#visible",
+        "source_property_name": "(#hud_title_text - #hud_title_text)",
+        "condition": "always_when_visible"
+      }
+    ]
+  },
+  "menu_screen@common.base_screen": {
+    "controls": [
+      {
+        "menu_visual_settings_button@pause_screen.menu_visual_settings_button": {}
+      }
+    ]
+  }
+}
